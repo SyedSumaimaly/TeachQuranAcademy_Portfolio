@@ -1,0 +1,282 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+@media(max-width:998px){
+    html{
+        font-size: 55%;
+    }
+}
+
+@media(max-width:768px){
+    html{
+        font-size: 45%;
+    }
+}
+.row{
+    padding: 0%;
+    margin: 0%;
+}
+
+/* For mobile phones: */
+[class*="col-"] {
+    width: 100%;
+}
+  
+@media only screen and (min-width: 600px) {
+    /* For tablets: */
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+  }
+  @media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+}
+
+/* .Nav{
+     padding-left: 30px;
+} */
+
+.nav-img{
+width: 100%;
+height: 20%;
+}
+
+.reg span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+    border: black 2px solid;
+    padding: 5px;
+    color: white;
+    background-color: #525252;
+}
+  
+.reg span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+  
+.reg:hover span {
+    padding-right: 25px;
+}
+  
+.reg:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+.Nav a{
+    text-decoration: none;
+    flex-wrap: wrap;
+}
+
+.main2{
+    margin-left: 85%;
+}
+.fa-youtube{
+    color: red;
+}
+.fa-blogger{
+    color: rgb(255, 153, 0);
+}
+.main1{
+    height: 90px;
+    margin-left: 45%;
+    margin-top: 2%;
+
+}
+.wel{
+    background-color: rgb(59, 59, 58);
+    text-align: center;
+    padding: 10px;
+    margin: 8px;
+   color: white;
+}
+.ab-index{
+    border: black 2px solid;
+    margin: 3%;
+    padding: 20px;
+}
+.choose{
+    text-align: center;
+    background-color: rgb(59, 59, 58);
+    text-align: center;
+    padding: 10px;
+    margin: 8px;
+    color: white;
+ 
+}
+.Expert{
+    border: black 2px solid;
+    padding: 20px;
+    width: 40%;
+    text-align: center;
+}
+.fas{
+ color:goldenrod;
+}
+
+.Expert a :hover{
+    color: rgb(181, 84, 211);
+}
+
+.students{
+    border: black 2px solid;
+    padding: 20px; 
+    width: 40%;
+    text-align: center;
+}
+.students a :hover{
+    color: rgb(181, 84, 211);
+}
+.flexible{
+    border: black 2px solid;
+    padding: 20px; 
+    width: 40%;
+    text-align: center;
+}
+
+.flexible a :hover{
+    color: rgb(181, 84, 211);
+}
+.trials{
+    border: black 2px solid;
+    padding: 20px;
+    width: 40%; 
+    text-align: center;
+}
+.trials a :hover{
+    color: rgb(181, 84, 211);
+}
+.Video-Gallery{
+    text-align: center;
+    background-color: rgb(59, 59, 58);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin: 8px;
+ 
+}
+
+.testimonials{
+    text-align: center;
+    background-color: rgb(59, 59, 58);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin: 8px;
+}
+
+.Contact-Us{
+    text-align: center;
+    background-color: rgb(59, 59, 58);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin: 8px;
+}
+
+.footer{
+    background-color: black;
+    padding: 30px;
+    margin-top: 4%;
+}
+.footer p{
+    color: white;
+}
+
+/**********************--------Courses---------*******************************/
+.plan{
+    display: flex;
+    flex-wrap: wrap;
+    background-image: linear-gradient( rgb(0, 238, 255), white);
+    padding: 50px;
+    margin-top: 5%;
+}
+.ourplans{
+    text-align: center;
+    margin-top: 5%;
+}
+.Qaida {
+    border: black 2px solid;
+    width: 30%;
+    padding: 10px;
+    margin-left: 3%;
+    background-color: rgb(111, 183, 250);
+    color: white;
+    
+}
+
+.Nazra{
+    border: black 2px solid;
+    width: 30%;
+    padding: 10px;
+    margin-left: 3%;
+    background-color:rgb(111, 183, 250);
+    color: black;
+}
+
+.Namaz{
+    border: black 2px solid;
+    width: 30%;
+    padding: 10px;
+    margin-left: 3%;
+    background-color: rgb(111, 183, 250);
+    
+}
+.QuranUrduTarjuma{
+    border: black 2px solid;
+    width: 30%;
+    padding: 10px;
+    margin-left: 3%;
+    background-color:rgb(111, 183, 250);
+    margin-top: 50px;
+}
+.Hifz{
+    border: black 2px solid;
+    width: 30%;
+    padding: 10px;
+    margin-left: 3%;
+    background-color: rgb(111, 183, 250);
+    margin-top: 50px;
+}
+
+/* ................................ About-Us  ............................. */
+
+.about{
+    border: 2px solid black;
+    width: 65%;
+    margin-left: 20%;
+    margin-top: 2%;
+}
+.about h3{
+    padding: 15px;
+}
